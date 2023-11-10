@@ -1,0 +1,170 @@
+
+:root{
+--color1:#4036A9;
+--color2:#111729;
+--color3:#CDD5E0;
+--color4:#F8FAFC;
+--color5:#FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+}
+
+h2{
+    font-size: 12px;
+    line-height: 1.2rem;
+}
+
+label{
+    font-size: 14px;
+    margin-top: 1rem;
+    color: #F8FAFC
+}
+
+button{
+    font-size: 14px;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: hidden;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: #4036A9;
+}
+header{
+    text-align: left;
+}
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background: url(/dccl--responsive-contact-page/bg-image.svg);
+    padding: 1rem;
+    font-size: 16px;
+    text-align: center;
+}
+
+.onecontainer{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    color:#FFFFFF;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.formcont{
+    padding: 1rem;
+    padding-bottom: 4rem;
+    background-color:rgba(255, 250, 299, 0.3);
+    border-radius: 1rem;
+}
+
+input, textarea, select{
+    padding: 1rem;
+    border-radius: 0.6rem;
+    border: hidden;
+    cursor: pointer;
+}
+
+select, textarea{
+    color: #111729;
+    font-weight: 600;
+}
+select{
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('/dccl--responsive-contact-page/Expand_down.svg') no-repeat right center; /* Use your custom arrow image */
+    background-color: #FFFFFF;
+           
+}
+@media screen and (min-width:765px) {
+    .row{
+        display: flex;
+        flex-direction: row;
+    gap: 1rem;
+    margin: 0 auto;
+    }
+
+    input, select{
+        width: 345px;
+        padding: 1.5rem 1rem 1.5rem 1rem;
+        margin: 0 auto;
+    }
+.col{
+    display: flex;
+    flex-direction: column;
+}
+    #name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 48px;
+        line-height: 4rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    h2{
+        font-size: 18px;
+        line-height: 2.5rem;
+      padding: 0 8rem 0 8rem;
+    }
+}
+
+@media screen and (min-width:978px) {
+    h1{
+        font-size: 64px;
+    }
+
+    h2{
+        font-size: 32px;
+
+    }
+
+    label{
+        font-size: 14px;
+    }
+
+    button{
+        font-size: 20px;
+    }
+
+     form{
+        max-width: 100%;
+     }
+
+    .formcont{
+        min-width: 30%;
+        width: 70%;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+   
+
+    input, select{
+        
+    
+    }
+}
